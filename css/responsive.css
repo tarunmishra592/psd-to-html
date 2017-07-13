@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1098px) {
+	.container{ width:100%; }
+}
+
+@media only screen and (max-width: 979px) {
+	.product-name-price h3{ font-size: 16px; }
+	.product-name-price h4 { font-size: 20px;}
+}
+
+@media only screen and (max-width: 768px) {
+	.product-box{ width: 33.333333333%; }
+}
+
+@media only screen and (max-width: 565px) {
+	.product-box{ width: 50%; }
+}
+
+@media only screen and (max-width: 480px) {
+	.product-box{ width: 100%; }
+	.shopping-heading h2{ font-size: 18px; }
+	.shopping-filter-right select{ width: 110px; }
+}

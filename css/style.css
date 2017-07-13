@@ -1,0 +1,170 @@
+/* Styles go here */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body, div, h1, h2, h3, h4, h5, h6, ul, li, p, strong, span, img, a, input, textarea, button, select {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+	outline:none;
+	margin:0px;
+	padding:0px;
+	border:none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+body{
+	background:#fff;
+	margin:0px;
+	padding:0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #333;
+	margin:0px;
+	padding:0px;
+	line-height:normal;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.wrapper{
+	width:100%;
+}
+
+.container{
+	width:1070px;
+	margin:auto;
+	padding:25px 0px;
+}
+
+
+/*filter band*/
+.shopping-filter-band{
+	padding:10px;
+	background:#def1f4;
+}
+
+.shopping-heading{
+	float:left;
+}
+.shopping-heading h2{
+	font-size:28px;
+	color:#333;
+	font-weight:600;
+	line-height: 27px;
+}
+
+.shopping-filter-right{
+	float:right;
+}
+.shopping-filter-right select{
+	background:#fff;
+	width:150px;
+	height:30px;
+	border:solid 1px #ccc;
+}
+/*filter band*/
+
+/*products list*/
+.product-container{
+	padding-top:10px;
+}
+
+.product-box{
+	width:25%;
+	min-height:400px;
+	float:left;
+	box-sizing: border-box;
+	border:solid 1px #ccc;
+	padding:15px 7px;
+}
+
+.product-box .product-image{
+	height:300px;
+	line-height: 300px;
+	width:100%;
+	text-align: center;
+}
+
+.product-box .product-image img{
+	max-width:100%;
+	max-height:100%;
+	vertical-align: middle;
+}
+
+.product-details{
+	min-height:110px;
+}
+
+.sale-exclusive{
+	height:60px;
+}
+
+.product-sale{
+	background:#cc3333;
+	color:#fff;
+	font-size:16px;
+	padding:15px 25px;
+	text-align:center;
+	display: inline-block;
+}
+
+.product-exclusive{
+	background:#009900;
+	color:#fff;
+	font-size:16px;
+	padding:15px 25px;
+	text-align:center;
+	display: inline-block;
+}
+
+.product-name-price{
+	clear:both;
+}
+
+.product-name-price h3{
+	width:60%;
+	font-size:18px;
+	letter-spacing:normal;
+	color:#333;
+	font-weight:bold;
+	float:left;
+}
+
+.product-name-price h4{
+	font-size:23px;
+	color:#333;
+	font-weight:bold;
+	float:right;
+}
+
+.hidden{
+	display:none;
+}
+/*products list*/
+

@@ -1,15 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>PSD to HTML</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
-	
+	<title>Women's tops</title>
+	<meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
 </head>
+
 <body>
+	<div class="wrapper">
+		<div class="container clearfix">
 
-<h3>Welcome</h3>
+			<!--product-filter-->
+			<section class="shopping-filter-band clearfix">
+				<div class="shopping-heading">
+					<h2>Women's tops</h2>
+				</div>
+				<div class="shopping-filter-right">
+					<select name="sortbysize" id="sortBy" onchange="selectChange()">
+						<option value="none">Filter by size</option>
+						<option value="S">S</option>
+						<option value="XS">XS</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+						<option value="M">M</option>
+					</select>
+				</div>
+			</section>
+			<!--product-filter-->
+			
+			<!--products-list-->
+			<section id="productsList" class="product-container"></section>
+			<!--products-list-->
+			
+		</div>
+	</div>
 
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
